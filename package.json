@@ -11,7 +11,7 @@
     "start": "node dist/app.js",
     "postinstall": "npm run build",
     "dev": "cross-env PORT=5001 nodemon",
-    "build": "tsc",
+    "build": "tsc --project tsconfig.json",
     "lint": "eslint . --ext .ts",
     "test": "jest"
   },
